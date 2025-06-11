@@ -1,0 +1,19 @@
+---
+base_url: "https://wiki.tamilnadu.tech"
+static_dir: "static"
+per_page: 50
+
+# Each entry can have multiple collection of tags (list of strings) in addition to the
+# categories. For instance, a directory of fonts could have multiple meaningful
+# tag collections per entry such as:
+# types = [serif, sans-serif, display, script]
+# mood = [retro, distressed, cool]
+# tag = [yep, nope, etc]
+taxonomies: ["device"]
+
+site_name: "தொழில்நுட்ப அடைவு"
+site_description: "தமிழ் மொழி கணினி வளங்களின் அடைவு."
+page_title: "{category} / தமிழ் மொழி கணினி வளங்களின் அடைவு."
+meta_description: "{category} தொடர்பான தகவல்களின் தொகுப்பு / தமிழ் மொழி கணினி வளங்களின் அழகான அடைவு."
+
+
