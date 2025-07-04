@@ -99,3 +99,8 @@
   categories: [Tools]
   device: [Web]
 
+- name: TamilKavi
+  description:  TamilKavi – Python package-ஆகவும், Hugging Faceல் dataset-ஆகவும் வெளியிடப்பட்டுள்ளது! தமிழ் கவிஞர்களுக்காக உருவானது TamilKavi. புது கவிஞர்களையும், அவர்களது திறமைகளையும் இணையத்தில் பகிர ஓர் இடமே TamilKavi.
+  url: "https://github.com/anandsundaramoorthysa/TamilKavi"
+  categories: [Code]
+
