@@ -11,9 +11,7 @@ per_page: 50
 # tag = [yep, nope, etc]
 taxonomies: ["device"]
 
-site_name: "தொழில்நுட்ப அடைவு"
-site_description: "தமிழ் மொழி கணினி வளங்களின் அடைவு."
-page_title: "{category} / தமிழ் மொழி கணினி வளங்களின் அடைவு."
+site_name: "தமிழ் கணிப்பொறி வளங்கள்"
+site_description: ""
+page_title: "{category} / தமிழ் கணிப்பொறி வளங்கள்"
 meta_description: "{category} தொடர்பான தகவல்களின் தொகுப்பு / தமிழ் மொழி கணினி வளங்களின் அழகான அடைவு."
-
-
