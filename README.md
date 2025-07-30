@@ -42,6 +42,32 @@ Clone and run the project locally:
 git clone https://github.com/FOSSUChennai/wiki.tamilnadu.tech
 cd wiki.tamilnadu.tech
 ```
+
+## ⚡ Getting Started (Local Setup)
+
+You can run this project locally using [`live-server`](https://www.npmjs.com/package/live-server):
+
+```bash
+# Step into the static directory
+cd static
+
+# Serve the site folder on port 3000
+live-server site --port=3000
+````
+
+This will serve the site at:
+
+```
+http://127.0.0.1:3000/site/
+```
+
+Make sure you have `live-server` installed globally. If not:
+
+```bash
+npm install -g live-server
+```
+
+
 ---
 
 ## 🤝 Contribute
