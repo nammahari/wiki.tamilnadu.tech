@@ -17,6 +17,7 @@ Whether you’re a developer, researcher, educator, or enthusiast — this is yo
 **Website:** [https://wiki.tamilnadu.tech](https://wiki.tamilnadu.tech)
 
 **Status:** Actively maintained
+
 **Focus:** Aggregating Tamil computing projects for open access and collaboration
 
 ---
