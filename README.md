@@ -111,4 +111,4 @@ Let’s build a **sustainable Tamil tech ecosystem** — one contribution at a t
 
 ---
 
-Would you like this in `.md` format or should I auto-generate a `CONTRIBUTING.md` as well? I can also create a landing badge or Tamil wordmark logo for the project if needed.
+
