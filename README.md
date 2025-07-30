@@ -43,7 +43,7 @@ git clone https://github.com/FOSSUChennai/wiki.tamilnadu.tech
 cd wiki.tamilnadu.tech
 ```
 
-## ⚡ Getting Started (Local Setup)
+## ⚡ (Local Setup)
 
 You can run this project locally using [`live-server`](https://www.npmjs.com/package/live-server):
 
