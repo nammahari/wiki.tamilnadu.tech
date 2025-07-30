@@ -45,7 +45,14 @@ We value clear, helpful, and consistent contributions that support Tamil computi
 3. **Make your changes** (add data, fix bugs, or improve layout)  
 4. **Submit a Pull Request** with a clear title and description  
 
-See the [CONTRIBUTING.md](CONTRIBUTING.md) file for detailed steps.
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Justparthi/wiki.tamilnadu.tech
+cd wiki.tamilnadu.tech
+```
+
 
 ### 📝 Contribution Tips
 
