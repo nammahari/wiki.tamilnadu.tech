@@ -1,19 +1,22 @@
-# wiki.tamilnadu.tech
-
-> **"ஒரே இடத்தில் அனைத்து தமிழ் திறந்த மூல கணிநுட்ப வளங்களும்."**  
-> *All open-source Tamil computing resources — in one place.*
-
-**wiki.tamilnadu.tech** is a community-driven platform that curates and organizes open-source tools, datasets, libraries, fonts, and utilities focused on Tamil language computing.
-
-Whether you're a developer, researcher, linguist, or student, this site helps you discover, share, and collaborate on Tamil tech initiatives.
 
 ---
 
-## 🔎 Overview
+# wiki.tamilnadu.tech
 
-- **Website:** [https://wiki.tamilnadu.tech](https://wiki.tamilnadu.tech)
-- **Source Code:** [GitHub Repository](https://github.com/FOSSUChennai/wiki.tamilnadu.tech)
-- **License:** [MIT](LICENSE) (Code) & [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (Content)
+> **"ஒரே இடத்தில் அனைத்து தமிழ் திறந்த மூல கணினி வளங்களும்."**  
+> *All open-source Tamil computing resources — in one place.*
+
+`wiki.tamilnadu.tech` is a **community-curated platform** that organizes and showcases open-source tools, datasets, libraries, fonts, and utilities focused on **Tamil language computing**.
+
+Whether you’re a developer, researcher, educator, or enthusiast — this is your go-to resource for everything Tamil + Tech.
+
+---
+
+## 🧭 Overview
+
+- **Website:** [https://wiki.tamilnadu.tech](https://wiki.tamilnadu.tech)  
+- **Status:** Actively maintained  
+- **Focus:** Aggregating Tamil computing projects for open access and collaboration  
 
 ---
 
@@ -29,44 +32,80 @@ The platform currently supports the following categories:
 | Resources     | Datasets, corpora, digitized texts, cultural archives     |
 | Tools         | Transliteration, text processors, converters, analyzers  |
 
-Explore these categories and more on [wiki.tamilnadu.tech](https://wiki.tamilnadu.tech).
+---
+
+## 🏛 Cultural Context
+
+This project is inspired by the rich **Tamil literary and linguistic heritage**, aiming to bridge **ancient language and modern technology**.
+
+It reflects the spirit of:
+
+> **ஊடக தமிழ்** (_Oodaga Thamizh_) — Digital and Media Tamil
 
 ---
 
-## 🤝 Contributing
+## 🚀 Getting Started
 
-Contributions are welcome from developers, designers, educators, and Tamil language enthusiasts.  
-We value clear, helpful, and consistent contributions that support Tamil computing.
+To run the project locally:
 
-### 🧭 How to Contribute
+```bash
+git clone https://github.com/FOSSUChennai/wiki.tamilnadu.tech
+cd wiki.tamilnadu.tech
+````
 
-1. **Fork** this repository  
-2. **Create a new branch** for your contribution  
-3. **Make your changes** (add data, fix bugs, or improve layout)  
-4. **Submit a Pull Request** with a clear title and description  
+### ⚡ Local Preview with `live-server`
 
-See the [CONTRIBUTING.md](CONTRIBUTING.md) file for detailed steps.
+You can preview the site locally using [`live-server`](https://www.npmjs.com/package/live-server):
 
-### 📝 Contribution Tips
+```bash
+# Make sure you're in the project root
+cd wiki.tamilnadu.tech
 
-| Change Type      | Notes                                                                 |
-| ---------------- | --------------------------------------------------------------------- |
-| UI Changes       | Include before/after screenshots or previews                         |
-| Bug Fixes        | Clearly explain what the bug was and how it was fixed                |
-| New Features     | Provide context, expected behavior, and (optionally) mockups         |
-| Data Updates     | Follow the `resources.json` structure and update image hosts if needed |
+# Serve the site folder
+live-server site --port=3000
+```
+
+Then open your browser at:
+
+```
+http://127.0.0.1:3000/site/
+```
+
+> If you don't have `live-server` installed:
+
+```bash
+npm install -g live-server
+```
 
 ---
 
-## 📄 License
+## 🤝 Contribute
 
-This project is licensed under the following terms:
+We welcome contributions to improve the listing and discoverability of Tamil tech resources.
 
-- **Code** — [MIT License](LICENSE)  
-- **Content & Data** — [Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
+### Steps to Contribute:
 
-> Edit this project at [FOSSUChennai/wiki.tamilnadu.tech](https://github.com/FOSSUChennai/wiki.tamilnadu.tech)
+1. Fork and clone this repository
+2. Add your resource or improve existing content
+3. Open a Pull Request with a clear description
 
 ---
 
-Let me know if you’d like this in a `.md` file, or want a consistent header/footer for your website to match this style.
+## 📜 License
+
+This project is licensed under the **[GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.html)**.
+
+You are free to use, share, and modify the content — but all contributions and derivatives must also remain open under the same license.
+
+---
+
+## ✨ Support the Vision
+
+* ⭐ Star this repo to show your support
+* 🧑‍💻 Contribute a new resource
+* 📢 Share [wiki.tamilnadu.tech](https://wiki.tamilnadu.tech) within your networks
+
+Let’s build a **sustainable Tamil tech ecosystem** — one contribution at a time.
+
+---
+
