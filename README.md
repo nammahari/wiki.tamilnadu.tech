@@ -49,7 +49,7 @@ You can run this project locally using [`live-server`](https://www.npmjs.com/pac
 
 ```bash
 # Step into the static directory
-cd static
+cd wiki.tamilnadu.tech
 
 # Serve the site folder on port 3000
 live-server site --port=3000
