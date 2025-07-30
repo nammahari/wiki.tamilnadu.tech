@@ -55,7 +55,7 @@ We welcome contributions to improve the listing and discoverability of Tamil tec
 ### How to Contribute:
 
 1. Fork and clone the repo
-2. Add your resource to `src/data/resources.json`
+2. Add your resource 
 3. Open a pull request with a clear description
 
 
