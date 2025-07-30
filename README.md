@@ -1,79 +1,118 @@
-# wiki.tamilnadu.tech
+I'm glad you liked it! Here's a refined version of the `README.md` with **minimal emojis** and a more **Tamil-flavored identity** — using culturally relevant touches while keeping it clean and professional:
 
-> **"ஒரே இடத்தில் அனைத்து தமிழ் திறந்த மூல கணிநுட்ப வளங்களும்."**  
+---
+
+# 🅣 tamil.tech
+
+> **"ஒரே இடத்தில் அனைத்து தமிழ் திறந்த மூல கணினி வளங்களும்."**
 > *All open-source Tamil computing resources — in one place.*
 
-**wiki.tamilnadu.tech** is a community-driven platform that curates and organizes open-source tools, datasets, libraries, fonts, and utilities focused on Tamil language computing.
+`tamil.tech` is a **community-curated platform** that organizes and showcases open-source tools, datasets, libraries, fonts, and utilities focused on **Tamil language computing**.
 
-Whether you're a developer, researcher, linguist, or student, this site helps you discover, share, and collaborate on Tamil tech initiatives.
-
----
-
-## 🔎 Overview
-
-- **Website:** [https://wiki.tamilnadu.tech](https://wiki.tamilnadu.tech)
-- **Source Code:** [GitHub Repository](https://github.com/FOSSUChennai/wiki.tamilnadu.tech)
-- **License:** [MIT](LICENSE) (Code) & [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (Content)
+Whether you’re a developer, researcher, educator, or enthusiast — this is your go-to resource for everything Tamil + Tech.
 
 ---
 
-## 🌐 Explore the Ecosystem
+## 🧭 Overview
 
-The platform currently supports the following categories:
-
-| Category      | Description                                               |
-| ------------- | --------------------------------------------------------- |
-| Code          | Tamil-focused libraries and source code repositories      |
-| Dictionaries  | Bilingual tools, Tamil thesauri, and lexical data         |
-| Fonts         | Unicode-compliant Tamil fonts and input tools             |
-| Resources     | Datasets, corpora, digitized texts, cultural archives     |
-| Tools         | Transliteration, text processors, converters, analyzers  |
-
-Explore these categories and more on [wiki.tamilnadu.tech](https://wiki.tamilnadu.tech).
+**Website:** [https://tamil.tech](https://tamil.tech)
+**Status:** Actively maintained
+**Focus:** Aggregating Tamil computing projects for open access and collaboration
 
 ---
 
-## 🤝 Contributing
+## 🗃️ Categories Included
 
-Contributions are welcome from developers, designers, educators, and Tamil language enthusiasts.  
-We value clear, helpful, and consistent contributions that support Tamil computing.
+| Section                 | Includes                                          |
+| ----------------------- | ------------------------------------------------- |
+| **Fonts & Keyboards**   | Unicode fonts, layout tools, Tamil input methods  |
+| **Language Datasets**   | Text corpora, parallel data, linguistic resources |
+| **NLP Tools**           | Tokenizers, POS taggers, spellcheckers, parsers   |
+| **Developer Libraries** | Tamil-related packages in Python, JS, Go, etc.    |
+| **OCR Tools**           | Text extraction from scanned Tamil documents      |
+| **Text Utilities**      | Transliteration, converters, analyzers            |
+| **Community Projects**  | Repos by Tamil developers and FOSS foundations    |
 
-### 🧭 How to Contribute
+---
 
-1. **Fork** this repository  
-2. **Create a new branch** for your contribution  
-3. **Make your changes** (add data, fix bugs, or improve layout)  
-4. **Submit a Pull Request** with a clear title and description  
+## 🚀 Getting Started
 
-
-Clone the repository:
+Clone and run the project locally:
 
 ```bash
-git clone https://github.com/Justparthi/wiki.tamilnadu.tech
-cd wiki.tamilnadu.tech
+git clone https://github.com/<your-org-or-username>/tamil.tech.git
+cd tamil.tech
+npm install
+npm run dev
 ```
 
-
-### 📝 Contribution Tips
-
-| Change Type      | Notes                                                                 |
-| ---------------- | --------------------------------------------------------------------- |
-| UI Changes       | Include before/after screenshots or previews                         |
-| Bug Fixes        | Clearly explain what the bug was and how it was fixed                |
-| New Features     | Provide context, expected behavior, and (optionally) mockups         |
-| Data Updates     | Follow the `resources.json` structure and update image hosts if needed |
+Then open: `http://localhost:3000`
 
 ---
 
-## 📄 License
+## 🤝 Contribute
 
-This project is licensed under the following terms:
+We welcome contributions to improve the listing and discoverability of Tamil tech resources.
 
-- **Code** — [MIT License](LICENSE)  
-- **Content & Data** — [Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
+### How to Contribute:
 
-> Edit this project at [FOSSUChennai/wiki.tamilnadu.tech](https://github.com/FOSSUChennai/wiki.tamilnadu.tech)
+1. Fork and clone the repo
+2. Add your resource to `src/data/resources.json`
+3. Open a pull request with a clear description
+
+📄 See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed steps.
 
 ---
 
-Let me know if you’d like this in a `.md` file, or want a consistent header/footer for your website to match this style.
+## ⚙️ Tech Stack
+
+| Technology                | Description                             |
+| ------------------------- | --------------------------------------- |
+| **Next.js 15**            | React framework powering the site       |
+| **TypeScript**            | Strong typing for reliability and scale |
+| **Tailwind CSS**          | Modern utility-first styling            |
+| **JSON/Markdown**         | Easy-to-maintain content structure      |
+| **Vercel / GitHub Pages** | Fast and scalable deployment            |
+
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+├── data/          → Resource listings
+├── components/    → UI components
+├── app/           → Routing and pages
+└── public/        → Static assets (images, icons)
+```
+
+---
+
+## 🏛 Cultural Context
+
+This project is inspired by the rich **Tamil literary and linguistic heritage**, aiming to build bridges between **ancient language and modern tech**.
+
+It reflects the spirit of:
+
+* **Thamizh mozhi valarchi** (தமிழ் மொழி வளர்ச்சி) – Tamil language development
+* **Oodaga thamizh** (ஊடக தமிழ்) – Media & digital Tamil
+
+---
+
+## 📜 License
+
+Licensed under the [MIT License](LICENSE).
+
+---
+
+## ✨ Support the Vision
+
+* ⭐ Star this repo to show your support
+* 🧑‍💻 Contribute a new resource
+* 📢 Share tamil.tech within your networks
+
+Let’s build a **sustainable Tamil tech ecosystem** — one contribution at a time.
+
+---
+
+Would you like this in `.md` format or should I auto-generate a `CONTRIBUTING.md` as well? I can also create a landing badge or Tamil wordmark logo for the project if needed.
