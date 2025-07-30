@@ -34,6 +34,33 @@ The platform currently supports the following categories:
 | Tools         | Transliteration, text processors, converters, analyzers  |
 ---
 
+
+---
+
+## 🏛 Cultural Context
+
+This project is inspired by the rich **Tamil literary and linguistic heritage**, aiming to build bridges between **ancient language and modern tech**.
+
+It reflects the spirit of:
+
+* **Oodaga thamizh** (ஊடக தமிழ்) – Media & digital Tamil
+
+---
+
+
+## 🤝 Contribute
+
+We welcome contributions to improve the listing and discoverability of Tamil tech resources.
+
+### How to Contribute:
+
+1. Fork and clone the repo
+2. Add your resource to `src/data/resources.json`
+3. Open a pull request with a clear description
+
+
+---
+
 ## 🚀 Getting Started
 
 Clone and run the project locally:
@@ -68,32 +95,6 @@ npm install -g live-server
 ```
 
 
----
-
-## 🤝 Contribute
-
-We welcome contributions to improve the listing and discoverability of Tamil tech resources.
-
-### How to Contribute:
-
-1. Fork and clone the repo
-2. Add your resource to `src/data/resources.json`
-3. Open a pull request with a clear description
-
-
----
----
-
-## 🏛 Cultural Context
-
-This project is inspired by the rich **Tamil literary and linguistic heritage**, aiming to build bridges between **ancient language and modern tech**.
-
-It reflects the spirit of:
-
-* **Thamizh mozhi valarchi** (தமிழ் மொழி வளர்ச்சி) – Tamil language development
-* **Oodaga thamizh** (ஊடக தமிழ்) – Media & digital Tamil
-
----
 
 ## 📜 License
 
