@@ -4,9 +4,9 @@
 # wiki.tamilnadu.tech
 
 > **"ஒரே இடத்தில் அனைத்து தமிழ் திறந்த மூல கணினி வளங்களும்."**  
-> *All open-source Tamil computing resources — in one place.*
+> *All Tamil computing resources — in one place.*
 
-`wiki.tamilnadu.tech` is a **community-curated platform** that organizes and showcases open-source tools, datasets, libraries, fonts, and utilities focused on **Tamil language computing**.
+`wiki.tamilnadu.tech` is a **community-curated platform** that organizes and showcases tools, datasets, libraries, fonts, and utilities focused on **Tamil language computing**.
 
 Whether you’re a developer, researcher, educator, or enthusiast — this is your go-to resource for everything Tamil + Tech.
 
@@ -41,55 +41,6 @@ This project is inspired by the rich **Tamil literary and linguistic heritage**,
 It reflects the spirit of:
 
 > **ஊடக தமிழ்** (_Oodaga Thamizh_) — Digital and Media Tamil
-
----
-
-## 🚀 Getting Started
-
-To run the project locally:
-
-```bash
-git clone https://github.com/FOSSUChennai/wiki.tamilnadu.tech
-cd wiki.tamilnadu.tech
-````
-
-### ⚡ Local Preview with `live-server`
-
-You can preview the site locally using [`live-server`](https://www.npmjs.com/package/live-server):
-
-```bash
-# Make sure you're in the project root
-cd wiki.tamilnadu.tech
-
-# Serve the site folder
-live-server site --port=3000
-```
-
-Then open your browser at:
-
-```
-http://127.0.0.1:3000/site/
-```
-
-> If you don't have `live-server` installed:
-
-```bash
-npm install -g live-server
-```
-
----
-
-## 🤝 Contribute
-
-We welcome contributions to improve the listing and discoverability of Tamil tech resources.
-
-### Steps to Contribute:
-
-1. Fork and clone this repository
-2. Add your resource or improve existing content
-3. Open a Pull Request with a clear description
-
----
 
 ## 📜 License
 
