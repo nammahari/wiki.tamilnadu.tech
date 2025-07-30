@@ -39,14 +39,9 @@ The platform currently supports the following categories:
 Clone and run the project locally:
 
 ```bash
-git clone https://github.com/<your-org-or-username>/wiki.tamilnadu.tech.git
+git clone https://github.com/FOSSUChennai/wiki.tamilnadu.tech
 cd wiki.tamilnadu.tech
-npm install
-npm run dev
 ```
-
-Then open: `http://localhost:3000`
-
 ---
 
 ## 🤝 Contribute
