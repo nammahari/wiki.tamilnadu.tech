@@ -1,4 +1,3 @@
-I'm glad you liked it! Here's a refined version of the `README.md` with **minimal emojis** and a more **Tamil-flavored identity** — using culturally relevant touches while keeping it clean and professional:
 
 ---
 
@@ -16,23 +15,23 @@ Whether you’re a developer, researcher, educator, or enthusiast — this is yo
 ## 🧭 Overview
 
 **Website:** [https://tamil.tech](https://tamil.tech)
+
 **Status:** Actively maintained
 **Focus:** Aggregating Tamil computing projects for open access and collaboration
 
 ---
 
-## 🗃️ Categories Included
+## 🌐 Explore the Ecosystem
 
-| Section                 | Includes                                          |
-| ----------------------- | ------------------------------------------------- |
-| **Fonts & Keyboards**   | Unicode fonts, layout tools, Tamil input methods  |
-| **Language Datasets**   | Text corpora, parallel data, linguistic resources |
-| **NLP Tools**           | Tokenizers, POS taggers, spellcheckers, parsers   |
-| **Developer Libraries** | Tamil-related packages in Python, JS, Go, etc.    |
-| **OCR Tools**           | Text extraction from scanned Tamil documents      |
-| **Text Utilities**      | Transliteration, converters, analyzers            |
-| **Community Projects**  | Repos by Tamil developers and FOSS foundations    |
+The platform currently supports the following categories:
 
+| Category      | Description                                               |
+| ------------- | --------------------------------------------------------- |
+| Code          | Tamil-focused libraries and source code repositories      |
+| Dictionaries  | Bilingual tools, Tamil thesauri, and lexical data         |
+| Fonts         | Unicode-compliant Tamil fonts and input tools             |
+| Resources     | Datasets, corpora, digitized texts, cultural archives     |
+| Tools         | Transliteration, text processors, converters, analyzers  |
 ---
 
 ## 🚀 Getting Started
