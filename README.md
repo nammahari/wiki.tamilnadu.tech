@@ -1,7 +1,7 @@
 
 ---
 
-# 🅣 wiki.tamilnadu.tech
+#  wiki.tamilnadu.tech
 
 > **"ஒரே இடத்தில் அனைத்து தமிழ் திறந்த மூல கணினி வளங்களும்."**
 > *All open-source Tamil computing resources — in one place.*
