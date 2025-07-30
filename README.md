@@ -3,7 +3,7 @@
 
 # wiki.tamilnadu.tech
 
-> **"ஒரே இடத்தில் அனைத்து தமிழ் திறந்த மூல கணினி வளங்களும்."**  
+> **"ஒரே இடத்தில் அனைத்து தமிழ் கணினி வளங்களும்."**  
 > *All Tamil computing resources — in one place.*
 
 `wiki.tamilnadu.tech` is a **community-curated platform** that organizes and showcases tools, datasets, libraries, fonts, and utilities focused on **Tamil language computing**.
