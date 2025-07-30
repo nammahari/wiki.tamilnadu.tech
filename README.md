@@ -35,7 +35,6 @@ The platform currently supports the following categories:
 ---
 
 
----
 
 ## 🏛 Cultural Context
 
