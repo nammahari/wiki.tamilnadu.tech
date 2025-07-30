@@ -59,32 +59,8 @@ We welcome contributions to improve the listing and discoverability of Tamil tec
 2. Add your resource to `src/data/resources.json`
 3. Open a pull request with a clear description
 
-📄 See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed steps.
 
 ---
-
-## ⚙️ Tech Stack
-
-| Technology                | Description                             |
-| ------------------------- | --------------------------------------- |
-| **Next.js 15**            | React framework powering the site       |
-| **TypeScript**            | Strong typing for reliability and scale |
-| **Tailwind CSS**          | Modern utility-first styling            |
-| **JSON/Markdown**         | Easy-to-maintain content structure      |
-| **Vercel / GitHub Pages** | Fast and scalable deployment            |
-
----
-
-## 📁 Project Structure
-
-```bash
-src/
-├── data/          → Resource listings
-├── components/    → UI components
-├── app/           → Routing and pages
-└── public/        → Static assets (images, icons)
-```
-
 ---
 
 ## 🏛 Cultural Context
