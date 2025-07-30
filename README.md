@@ -1,12 +1,12 @@
 
 ---
 
-# 🅣 tamil.tech
+# 🅣 wiki.tamilnadu.tech
 
 > **"ஒரே இடத்தில் அனைத்து தமிழ் திறந்த மூல கணினி வளங்களும்."**
 > *All open-source Tamil computing resources — in one place.*
 
-`tamil.tech` is a **community-curated platform** that organizes and showcases open-source tools, datasets, libraries, fonts, and utilities focused on **Tamil language computing**.
+`wiki.tamilnadu.tech` is a **community-curated platform** that organizes and showcases open-source tools, datasets, libraries, fonts, and utilities focused on **Tamil language computing**.
 
 Whether you’re a developer, researcher, educator, or enthusiast — this is your go-to resource for everything Tamil + Tech.
 
@@ -14,7 +14,7 @@ Whether you’re a developer, researcher, educator, or enthusiast — this is yo
 
 ## 🧭 Overview
 
-**Website:** [https://tamil.tech](https://tamil.tech)
+**Website:** [https://wiki.tamilnadu.tech](https://wiki.tamilnadu.tech)
 
 **Status:** Actively maintained
 **Focus:** Aggregating Tamil computing projects for open access and collaboration
@@ -39,8 +39,8 @@ The platform currently supports the following categories:
 Clone and run the project locally:
 
 ```bash
-git clone https://github.com/<your-org-or-username>/tamil.tech.git
-cd tamil.tech
+git clone https://github.com/<your-org-or-username>/wiki.tamilnadu.tech.git
+cd wiki.tamilnadu.tech
 npm install
 npm run dev
 ```
@@ -84,7 +84,7 @@ Licensed under the [MIT License](LICENSE).
 
 * ⭐ Star this repo to show your support
 * 🧑‍💻 Contribute a new resource
-* 📢 Share tamil.tech within your networks
+* 📢 Share wiki.tamilnadu.tech within your networks
 
 Let’s build a **sustainable Tamil tech ecosystem** — one contribution at a time.
 
