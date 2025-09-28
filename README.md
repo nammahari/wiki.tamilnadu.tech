@@ -92,11 +92,3 @@ This project is licensed under the following terms:
 * **Content & Data** — [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 > Edit this page at [FOSSUChennai/wiki.tamilnadu.tech](https://github.com/FOSSUChennai/wiki.tamilnadu.tech)
-
----
-
-Let me know if you'd like a downloadable `.md` file, a `CONTRIBUTING.md` template, or homepage design suggestions to match this format.
-
-```
-
-Would you like me to generate the actual `CONTRIBUTING.md` next?
