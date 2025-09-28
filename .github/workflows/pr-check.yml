@@ -1,0 +1,53 @@
+name: PR Check
+
+on:
+  pull_request:
+    paths:
+      - 'data.yml'
+
+jobs:
+  validate-yaml:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run yamllint
+        id: lint
+        run: |
+          pip install yamllint
+          yamllint -f github data.yml > yamllint-output.txt || true  
+
+      - name: Check for errors
+        id: check_errors
+        run: |
+          if [ -s yamllint-output.txt ]; then
+            echo "has_errors=true" >> $GITHUB_ENV
+            sed -e 's/::group::.*//g' -e 's/::error.*:://g' -e 's/::endgroup:://g' yamllint-output.txt > cleaned-yamllint-output.txt
+            awk -F: 'NF > 1 {printf "Line %s, Column %s: ", $1, $2; for(i=3; i<=NF; i++) printf "%s", $i; print ""}' cleaned-yamllint-output.txt > formatted-yamllint-output.txt
+            echo "YAMLLINT_OUTPUT<<EOF" >> $GITHUB_ENV
+            cat formatted-yamllint-output.txt >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
+          fi
+
+      - name: Comment on PR
+        if: env.has_errors == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          gh pr comment $PR_NUMBER --body "### Linting failed with the following error.
+
+          \`\`\`
+          ${{ env.YAMLLINT_OUTPUT }}
+          \`\`\`
+
+          Please fix the above errors."
+
+      - name: Approve PR
+        if: env.has_errors != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          gh pr review $PR_NUMBER --approve --body "Valid data.yml, Approving PR"
