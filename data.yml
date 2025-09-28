@@ -1,101 +1,125 @@
 ---
-
-- name: "Tamilnadu.tech"
-  description: "Directory of Tech Event happening in Tamil Nadu."
-  url: "https://tamilnadu.tech"
-  categories: [Resources]
-  device: [Web]
-
-- name: "Baloo Thambi 2"
-  description: "Comprehensive ligature Tamil font from EkType."
-  url: "https://ektype.in/font-family/baloo/baloo-thambi2.html"
-  categories: [Fonts]
-
-- name: "Kaniyam"
-  description: "கட்டற்ற கணிநுட்பம்"
-  url: "https://kaniyam.com/"
-  categories: [Resources]
-  Device: [Web]
-
-- name: "Tamil Virtual Academy"
-  description: "Tamil Virtual Academy proposed to develop Tamil computing software for the use of Tamil society and Tamil computing researchers."
-  url: "https://www.tamilvu.org/en/research-development"
-  categories: [Resources]
-  device: [Web]
-
-- name: "வாணி"
-  description: "எழுத்துப்பிழை திருத்தி"
-  url: "எழுத்துப்பிழை திருத்தி"
-  categories: [Tools]
-  device: [Web]
-
-- name: "Suratha.com"
-  description: "எந்த ஒரு  தெரிந்த அல்லது தெரியாத  எழுத்துருவாகவிருந்தாலும் அதனை மேல் தட்டில் உள்ளிட்டு கீழே உள்ள  ஏதாவதொரு துவாரங்களை சுட்டுவதன் மூலம்  நீங்கள் உள்ளிட்டதை சீராக  தமிழில் வாசிக்கமுடியும்."
-  url: "https://www.suratha.com/"
-  categories: [Tools]
-  device: [Web]
-  
-- name: "Tamil TTS"
-  description: "Text to Speech in Tamil"
-  url: "https://github.com/vasurenganathan/tamil-tts"
-  categories: [Code]
-
-- name: "தமிழ்ப் பொறி"
+- name: Tamilnadu.tech
+  description: Directory of Tech Event happening in Tamil Nadu.
+  url: https://tamilnadu.tech
+  categories:
+    - Resources
+  device:
+    - Web
+- name: Baloo Thambi 2
+  description: Comprehensive ligature Tamil font from EkType.
+  url: https://ektype.in/font-family/baloo/baloo-thambi2.html
+  categories:
+    - Fonts
+- name: Kaniyam
+  description: கட்டற்ற கணிநுட்பம்
+  url: https://kaniyam.com/
+  categories:
+    - Resources
+  Device:
+    - Web
+- name: Tamil Virtual Academy
+  description: Tamil Virtual Academy proposed to develop Tamil computing
+    software for the use of Tamil society and Tamil computing researchers.
+  url: https://www.tamilvu.org/en/research-development
+  categories:
+    - Resources
+  device:
+    - Web
+- name: வாணி
+  description: எழுத்துப்பிழை திருத்தி
+  url: எழுத்துப்பிழை திருத்தி
+  categories:
+    - Tools
+  device:
+    - Web
+- name: Suratha.com
+  description: எந்த ஒரு  தெரிந்த அல்லது தெரியாத  எழுத்துருவாகவிருந்தாலும் அதனை
+    மேல் தட்டில் உள்ளிட்டு கீழே உள்ள  ஏதாவதொரு துவாரங்களை சுட்டுவதன்
+    மூலம்  நீங்கள் உள்ளிட்டதை சீராக  தமிழில் வாசிக்கமுடியும்.
+  url: https://www.suratha.com/
+  categories:
+    - Tools
+  device:
+    - Web
+- name: Tamil TTS
+  description: Text to Speech in Tamil
+  url: https://github.com/vasurenganathan/tamil-tts
+  categories:
+    - Code
+- name: தமிழ்ப் பொறி
   description: "ஆங்கிலம் தமிழ் மொழிபெயர்ப்பு மென்பொருள் "
-  url: "https://www.tamilvu.org/ta/tsdf-html-cwlitsdf-341285"
-  categories: [Resources]
-  device: [Web]
-
-- name: "Azhagi"
-  description: "Azhagi is a free software for typing in Tamil and other Indian languages."
-  url: "https://www.azhagi.com/"
-  categories: [Tools]
-  device: [Windows, Mac, Linux]
-
-- name: "Open Tamil"
-  description: "Open Tamil on the web platform hosts the free-software language processing applications present within library open-tamil, for processing Tamil language text, numbers, scripts. "
-  url: "https://tamilpesu.us/en/"
-  categories: [Resources]
-  device: [Web]
-
-- name: "Ezhil-Lang"
-  description: "எழில் - ஒரு தமிழ் நிரலாக்க மொழி; தமிழ் மாணவர்களுக்கு இது முதல்முறை கணிப்பொறி நிரல் ஏழுத உதவும்"
-  url: "https://github.com/Ezhil-Language-Foundation/Ezhil-Lang"
-  categories: [Code]
-
-- name: "Tamil Wikipedia"
-  description: "The Tamil Wikipedia is the Tamil language edition of Wikipedia, a free and collaborative online encyclopedia."
-  url: "https://ta.wikipedia.org/"
-  categories: [Resources]
-  device: [Web]
-
+  url: https://www.tamilvu.org/ta/tsdf-html-cwlitsdf-341285
+  categories:
+    - Resources
+  device:
+    - Web
+- name: Azhagi
+  description: Azhagi is a free software for typing in Tamil and other Indian
+    languages.
+  url: https://www.azhagi.com/
+  categories:
+    - Tools
+  device:
+    - Windows
+    - Mac
+    - Linux
+- name: Open Tamil
+  description: "Open Tamil on the web platform hosts the free-software language
+    processing applications present within library open-tamil, for processing
+    Tamil language text, numbers, scripts. "
+  url: https://tamilpesu.us/en/
+  categories:
+    - Resources
+  device:
+    - Web
+- name: Ezhil-Lang
+  description: எழில் - ஒரு தமிழ் நிரலாக்க மொழி; தமிழ் மாணவர்களுக்கு இது
+    முதல்முறை கணிப்பொறி நிரல் ஏழுத உதவும்
+  url: https://github.com/Ezhil-Language-Foundation/Ezhil-Lang
+  categories:
+    - Code
+- name: Tamil Wikipedia
+  description: The Tamil Wikipedia is the Tamil language edition of Wikipedia, a
+    free and collaborative online encyclopedia.
+  url: https://ta.wikipedia.org/
+  categories:
+    - Resources
+  device:
+    - Web
 - name: Agarathi - அகராதி
-  description: Online Tamil ↔ English dictionary. 
+  description: Online Tamil ↔ English dictionary.
   url: https://agarathi.com
-  categories: [Dictionaries]
-  device: [Web]
-
+  categories:
+    - Dictionaries
+  device:
+    - Web
 - name: Chol
   description: Online Tamil ↔ English dictionary.
   url: https://www.karky.in/karefo/apps/chol/
-  categories: [Dictionaries]
-  device: [Mobile]
-
+  categories:
+    - Dictionaries
+  device:
+    - Mobile
 - name: Tamil Lexicon
-  description: "The Tamil Lexicon is a comprehensive dictionary of the Tamil language, published by the University of Madras."
-  url: "https://www.tamillexicon.com/"
-  categories: [Dictionaries]
-  device: [Web]
-
+  description: The Tamil Lexicon is a comprehensive dictionary of the Tamil
+    language, published by the University of Madras.
+  url: https://www.tamillexicon.com/
+  categories:
+    - Dictionaries
+  device:
+    - Web
 - name: Tamil Dictionaries
-  description:  Multi dictionary search for Tamil
-  url: "http://vaani.neechalkaran.com/word"
-  categories: [Dictionaries]
-  device: [Web]
-
+  description: Multi dictionary search for Tamil
+  url: http://vaani.neechalkaran.com/word
+  categories:
+    - Dictionaries
+  device:
+    - Web
 - name: Thirukural AI
-  description:  Ask questions about Thirukural & Thiruvalluvar
-  url: "https://www.thirukural.ai"
-  categories: [Tools]
-  device: [Web]
-
+  description: Ask questions about Thirukural & Thiruvalluvar
+  url: https://www.thirukural.ai
+  categories:
+    - Tools
+  device:
+    - Web
