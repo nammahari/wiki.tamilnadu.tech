@@ -22,17 +22,14 @@ Whether you're a developer, researcher, linguist, or student — this is your hu
 You can run this project locally using [`live-server`](https://www.npmjs.com/package/live-server):
 
 ```bash
-# Step into the static directory
-cd static
-
-# Serve the site folder on port 3000
+# Serve the site folder on port 3000 from the root directory
 live-server site --port=3000
-````
+```
 
 This will serve the site at:
 
 ```
-http://127.0.0.1:3000/site/
+http://127.0.0.1:3000/
 ```
 
 Make sure you have `live-server` installed globally. If not:
@@ -80,7 +77,7 @@ For detailed steps, see the [CONTRIBUTING.md](CONTRIBUTING.md) guide.
 | UI Changes   | Include a screenshot or preview of your update                         |
 | Bug Fixes    | Describe the issue and how your fix resolves it                        |
 | New Features | Provide context, expected behavior, and optionally a mockup            |
-| Data Updates | Follow the `resources.json` format; update allowed hostnames if needed |
+| Data Updates | Follow the `data.yml` format; update allowed hostnames if needed |
 
 ---
 
