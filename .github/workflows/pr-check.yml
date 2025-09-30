@@ -5,6 +5,10 @@ on:
     paths:
       - 'data.yml'
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   validate-yaml:
     runs-on: ubuntu-latest
