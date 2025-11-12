@@ -1,91 +1,83 @@
-# wiki.tamilnadu.tech
+![wiki.tamilnadu.tech logo](static/logo.svg)
 
 > **"ஒரே இடத்தில் அனைத்து தமிழ் திறந்த மூல கணிநுட்ப வளங்களும்."**  
 > *All open-source Tamil computing resources — in one place.*
 
-**wiki.tamilnadu.tech** is a community-driven platform that curates and organizes open-source tools, datasets, libraries, fonts, and utilities focused on Tamil language computing.
+---
 
-Whether you're a developer, researcher, linguist, or student — this is your hub for exploring and contributing to the Tamil technology ecosystem.
+### About
+
+**wiki.tamilnadu.tech** is a community-driven directory that curates and organizes open-source Tamil computing tools, datasets, fonts, libraries, and utilities — everything that helps build and grow the Tamil technology ecosystem.
+
+Built using [dirmaker](https://pypi.org/project/dirmaker) — a simple, opinionated static site generator for publishing directory websites.
+
+**Website:** [https://wiki.tamilnadu.tech](https://wiki.tamilnadu.tech)  
+**Source:** [https://github.com/FOSSUChennai/wiki.tamilnadu.tech](https://github.com/FOSSUChennai/wiki.tamilnadu.tech)  
+**License:** MIT (Code), CC BY-SA 4.0 (Content)
 
 ---
 
-## 🔎 Overview
+### Install
 
-- **Website:** [https://wiki.tamilnadu.tech](https://wiki.tamilnadu.tech)
-- **Source Code:** [GitHub Repository](https://github.com/FOSSUChennai/wiki.tamilnadu.tech)
-- **License:** [MIT](LICENSE) (Code) & [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (Content)
-
----
-
-## ⚡ Getting Started (Local Setup)
-
-You can run this project locally using [`live-server`](https://www.npmjs.com/package/live-server):
+To get started with **dirmaker**, install it using pip:
 
 ```bash
-# Serve the site folder on port 3000 from the root directory
-live-server site --port=3000
+pip3 install dirmaker
 ```
+### Build Locally 
 
-This will serve the site at:
-
-```
-http://127.0.0.1:3000/
-```
-
-Make sure you have `live-server` installed globally. If not:
-
+You can build the site locally using the following commands:
 ```bash
-npm install -g live-server
+# Inside the project directory / edit the data.yml for any changes with the content 
+
+nvim data.yml 
+
+# after the changes, build the site with 
+
+dirmaker --build
+```
+this will update the site/ directory
+
+#### To preview locally 
+```bash
+ python -m http.server --directory site
+```
+then open your browser at: 
+```bash
+# replace the port_number
+http://127.0.0.1:port_number/
+```
+### Contribute
+
+We welcome contributions from developers, designers, and Tamil language enthusiasts.
+
+To add or update any project or resource:
+
+Edit the data.yml file — add or update your project entry.
+
+Build the site locally with:
+```bash
+dirmaker --build
 ```
 
----
+Take a screenshot of the working site showing your change.
 
-## 🌐 Explore the Ecosystem
+Create a Pull Request (PR) including:
 
-The platform currently supports the following categories:
+- Project name
 
-| Category     | Description                                             |
-| ------------ | ------------------------------------------------------- |
-| Code         | Tamil-focused libraries and source code repositories    |
-| Dictionaries | Bilingual tools, Tamil thesauri, and lexical data       |
-| Fonts        | Unicode-compliant Tamil fonts and input tools           |
-| Resources    | Datasets, corpora, digitized texts, cultural archives   |
-| Tools        | Transliteration, text processors, converters, analyzers |
+- Short description
 
-Explore these categories at [wiki.tamilnadu.tech](https://wiki.tamilnadu.tech).
+- Screenshot showing your update
 
----
+Your contribution helps expand and strengthen the Tamil open-source ecosystem ❤️
 
-## 🤝 Contributing
+### License
+Code: [MIT License](https://github.com/FOSSUChennai/wiki.tamilnadu.tech/blob/main/LICENSE)
+Content: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
-We welcome contributions from developers, designers, educators, and Tamil language enthusiasts.
-If you're passionate about Tamil tech — your help makes a difference!
 
-### 🔧 How to Contribute
+Built using [dirmaker](https://pypi.org/project/dirmaker)
 
-1. **Fork** this repository
-2. **Create a new branch** for your changes
-3. **Add your resource or fix**
-4. **Submit a Pull Request** with a descriptive message
-
-For detailed steps, see the [CONTRIBUTING.md](CONTRIBUTING.md) guide.
-
-### ✅ Contribution Guidelines
-
-| Type         | Notes                                                                  |
-| ------------ | ---------------------------------------------------------------------- |
-| UI Changes   | Include a screenshot or preview of your update                         |
-| Bug Fixes    | Describe the issue and how your fix resolves it                        |
-| New Features | Provide context, expected behavior, and optionally a mockup            |
-| Data Updates | Follow the `data.yml` format; update allowed hostnames if needed |
-
----
-
-## 📄 License
-
-This project is licensed under the following terms:
-
-* **Code** — [MIT License](LICENSE)
-* **Content & Data** — [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-
-> Edit this page at [FOSSUChennai/wiki.tamilnadu.tech](https://github.com/FOSSUChennai/wiki.tamilnadu.tech)
+Maintained by the [FOSS United Chennai
+ community](https://fossunited.org/c/chennai)
